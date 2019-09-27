@@ -1,8 +1,12 @@
 /*SULMAN SALEEM*/
 
+//pls have a preamble here as discussed in class!
+
 use "https://docs.google.com/uc?id=1IFhpDFeP4jon94KIgXpIheDnt9RLo6NR&export=download", clear
 
 save states.dta,replace
+
+//it needs to save in 3 different formats! pls read ps instructions carefully!
 
 /*Prior to importing the file I had bit of difficulty as the data needed to be
 destring. So I went through the entire file destring it one by one on excel. */
