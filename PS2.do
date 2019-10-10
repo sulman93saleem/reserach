@@ -4,11 +4,17 @@ Dr. Adam OK
 Stata Version 13 */
 version 13
 
+//overwall nice, but try to get more obs, happiness datat are available for 150+ countries; maybe look at WVS data--shourjya is expert with these data
+
+//nice descr
+
 use "https://docs.google.com/uc?id=1IFhpDFeP4jon94KIgXpIheDnt9RLo6NR&export=download", clear
 /* Preamble: This is a data set on violent crime by state for 2017 in this United 
 States. My aim is to study happiness and I want to do that by looking at the 
 impact of crime on happiness at state level. In addtion to that I'll by looking 
 at the impact of refugee settlement, GDP per capita, and net migration rate. */
+
+//would benice to have more countries
 
 /* Getting straight to merging the files. Here I had a separate data for violent
 crime by state and I mereged it with my orignal data, which looked at
