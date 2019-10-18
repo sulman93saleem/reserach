@@ -9,6 +9,9 @@ States. My aim is to study happiness and I want to do that by looking at the
 impact of crime on happiness at state level. In addtion to that I'll by looking 
 at the impact of refugee settlement, GDP per capita, and net migration rate. */
 
+//can you say the specific hypothesis?
+
+//pls give the exact source of data
 use "https://docs.google.com/uc?id=1IFhpDFeP4jon94KIgXpIheDnt9RLo6NR&export=download", clear
 
 /* Getting straight to merging the files. Here I had a separate data for violent
@@ -63,3 +66,4 @@ drop _merge
 /*It's District of Columbia and United States placed in there which is the
 mismatch. */
 
+//good job!
