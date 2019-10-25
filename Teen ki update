@@ -56,4 +56,5 @@ drop _merge
 
 /*It's District of Columbia and United States placed in there which is the
 mismatch. */
-*IGNORE  teacher ko nahi apne liye
+
+* IGNORE THIS FILE
