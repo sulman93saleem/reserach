@@ -1,3 +1,4 @@
+//when doing graphs try to answer your research question: use DV, IV, and key controls
 use "https://docs.google.com/uc?id=1IFhpDFeP4jon94KIgXpIheDnt9RLo6NR&export=download", clear
 *Data source World Bank and UN
 
@@ -67,11 +68,15 @@ graph bar (mean) HappinessScore if HappinessScore > 62, over(State)
  scatter HappinessScore GDPCapita || lfit  HappinessScore GDPCapita
  /* There is a strong uphill relationship between happiness and gdp capita. So 
  I suppose money does make people happy.*/
- 
+
+//try bar graphs over multiple categories as we did in class
 graph bar (mean) HappinessScore [pweight = HappinessScore] in 1/6, over(State)
  /* This is better which shows happiness in six states alabetically. But I'd
  like to show you top five happy states. */
  
+//can label obs as we did in class 
 scatter  CombinedSettledRefugee HappinessScore  || lfit  CombinedSettledRefugee HappinessScore
  /*There appears to be an uphill relationship between happiness and where the 
  refugee wind up being placed by the government.*/
+
+//do more graphs with more variables 
